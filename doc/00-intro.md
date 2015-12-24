@@ -83,7 +83,7 @@ You can install Composer to a specific directory by using the `--install-dir`
 option and additionally (re)name it as well using the `--filename` option:
 
 ```sh
-curl -sS https://getcomposer.org/installer | php -- --install-dir=bin --filename=composer
+curl -sS https://getcomposer.org/installer | php --install-dir=bin --filename=composer
 ```
 
 Now just run `php bin/composer` in order to run Composer.
